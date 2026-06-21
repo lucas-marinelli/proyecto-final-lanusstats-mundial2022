@@ -1,0 +1,56 @@
+# ============================================================
+# .gitignore · Proyecto Final LanusStats (Lucas Marinelli)
+# ============================================================
+
+# === Datos cacheados (regenerables corriendo 00_setup.ipynb) ===
+**/data/
+*.parquet
+*.csv.gz
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+.jupyter/
+
+# === Editores / IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Archivos personales que NO van al repo público ===
+Borrador_ensayos.ipynb
+explorar_data.ipynb
+GUIA_PERSONALIZACION.md
+INSTRUCCIONES_ENTREGA.md
+b_punto_*.ipynb
+
+# === Outputs huérfanos viejos (las versiones buenas están en outputs/ y outputs_v1/) ===
+**/punto2_top_pasadores.png
+**/punto3_tiros_arabia_saudita.png
+**/punto6c_*.png
+
+# === Secretos (por las dudas) ===
+.env
+*.pem
+*.key
+credentials.json

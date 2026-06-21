@@ -1,0 +1,26 @@
+# ============================================================
+# Dependencias del Proyecto Final LanusStats (Lucas Marinelli)
+# Python 3.12+
+# ============================================================
+
+# === Datos ===
+statsbombpy>=1.13         # API oficial de StatsBomb Open Data
+pandas>=2.0               # procesamiento tabular
+numpy>=1.24               # cálculo numérico
+pyarrow>=14.0             # parquet engine (cache de partidos)
+
+# === Visualización ===
+matplotlib>=3.7           # base de todos los gráficos
+mplsoccer>=1.2            # Pitch, VerticalPitch, PyPizza
+                          # https://mplsoccer.readthedocs.io
+
+# === Estadística ===
+scipy>=1.10               # percentileofscore para el PyPizza
+
+# === Helpers ===
+tqdm>=4.65                # progress bars al cargar los 64 partidos
+
+# === Jupyter (para correr los notebooks) ===
+jupyter>=1.0
+ipykernel>=6.0
+notebook>=7.0
