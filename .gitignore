@@ -44,6 +44,14 @@ GUIA_PERSONALIZACION.md
 INSTRUCCIONES_ENTREGA.md
 b_punto_*.ipynb
 
+# === Archivos comprimidos (los notebooks viven sin comprimir adentro) ===
+*.zip
+*.rar
+*.7z
+
+# === Carpeta outputs SOLO en la raíz del repo (los buenos están en cada Proyecto_*/outputs/) ===
+/outputs/
+
 # === Outputs huérfanos viejos (las versiones buenas están en outputs/ y outputs_v1/) ===
 **/punto2_top_pasadores.png
 **/punto3_tiros_arabia_saudita.png
